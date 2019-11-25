@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Kouvolan Tennishalli
-url: "https://kouvolantennishalli.github.io"
+title: Kotkan Tennishalli
+url: "https://kotkantennishalli.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -17,7 +17,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Kouvolan Tennishalli
+  name: Kotkan Tennishalli
   links:
     - https://github.com/CloudCannon/malt-jekyll-template
 
