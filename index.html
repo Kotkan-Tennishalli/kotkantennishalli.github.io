@@ -19,6 +19,7 @@ _options:
 ---
 
 <button type="button" onclick="window.location.href = '{{ page.varausjarjestelmalinkki }}';">Varaa aika</button>
+<p class="editable">{{ page.description }}</p>
 <h3 class="editable">Osoite</h3>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1966.1220588860263!2d26.86891381611888!3d60.4762127820747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469174b5c3d758f5%3A0x38e76cdda1ac9815!2sMahlam%C3%A4entie%2031%2C%2048300%20Kotka!5e0!3m2!1sen!2sfi!4v1574720514027!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 <address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
